@@ -15,7 +15,7 @@
 		
 		.head{
 			text-align: center;
-			background-color: blue;
+			background-color: pink;
 			margin-left: 20%;
 			margin-right:20%;
 			padding:4%;
@@ -74,7 +74,6 @@
 				background-color: white;
 				padding:1%;
 				padding-bottom: 3%
-
 			}
 			.nav-media a{
 				text-decoration:none;
@@ -82,3 +81,16 @@
 				color:black;
 			}
 		}
+		@media(max-width: 576px) and (min-width: 768px){
+
+		   .nav-media{
+			    display: none;
+				position:absolute;
+				top:0%;
+				border:1px solid black;
+				display:block;
+				width:25%;
+				background-color: white;
+				padding:1%;
+				padding-bottom: 3%
+			}
